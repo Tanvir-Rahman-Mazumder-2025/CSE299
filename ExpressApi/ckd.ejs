@@ -1,0 +1,54 @@
+<form method="POST" action="/predict">
+  <label>Age of the patient: <input type="number" step="any" name="Age_of_the_patient" required></label><br>
+
+  <label>Specific gravity of urine: <input type="number" step="any" name="Specific_gravity_of_urine" required></label><br>
+
+  <label>Random blood glucose level (mg/dl): <input type="number" step="any" name="Random_blood_glucose_level_mg_dl" required></label><br>
+
+  <label>Blood urea (mg/dl): <input type="number" step="any" name="Blood_urea_mg_dl" required></label><br>
+
+  <label>Serum creatinine (mg/dl): <input type="number" step="any" name="Serum_creatinine_mg_dl" required></label><br>
+
+  <label>Sodium level (mEq/L): <input type="number" step="any" name="Sodium_level_mEq_L" required></label><br>
+
+  <label>Potassium level (mEq/L): <input type="number" step="any" name="Potassium_level_mEq_L" required></label><br>
+
+  <label>Hemoglobin level (gms): <input type="number" step="any" name="Hemoglobin_level_gms" required></label><br>
+
+  <label>White blood cell count (cells/cumm): <input type="number" step="any" name="White_blood_cell_count_cells_cumm" required></label><br>
+
+  <label>Red blood cell count (millions/cumm): <input type="number" step="any" name="Red_blood_cell_count_millions_cumm" required></label><br>
+
+  <label>Estimated Glomerular Filtration Rate (eGFR): <input type="number" step="any" name="Estimated_Glomerular_Filtration_Rate_eGFR" required></label><br>
+
+  <label>Urine protein-to-creatinine ratio: <input type="number" step="any" name="Urine_protein_to_creatinine_ratio" required></label><br>
+
+  <label>Urine output (ml/day): <input type="number" step="any" name="Urine_output_ml_day" required></label><br>
+
+  <label>Serum albumin level: <input type="number" step="any" name="Serum_albumin_level" required></label><br>
+
+  <label>Parathyroid hormone (PTH) level: <input type="number" step="any" name="Parathyroid_hormone_PTH_level" required></label><br>
+
+  <label>Serum calcium level: <input type="number" step="any" name="Serum_calcium_level" required></label><br>
+
+  <label>Duration of hypertension (years): <input type="number" step="any" name="Duration_of_hypertension_years" required></label><br>
+
+  <label>Interleukin-6 (IL-6) level: <input type="number" step="any" name="Interleukin_6_IL6_level" required></label><br>
+
+  <label>Family history of chronic kidney disease: <input type="number" step="any" name="Family_history_of_chronic_kidney_disease" required></label><br>
+
+  <label>Serum phosphate level: <input type="number" step="any" name="Serum_phosphate_level" required></label><br>
+
+  <label>Pus cells in urine: <input type="number" step="any" name="Pus_cells_in_urine" required></label><br>
+
+  <label>Albumin in urine: <input type="number" step="any" name="Albumin_in_urine" required></label><br>
+
+  <label>Anemia (yes/no): 
+    <select name="Anemia_yes_no" required>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </label><br>
+
+  <button type="submit">Predict</button>
+</form>
